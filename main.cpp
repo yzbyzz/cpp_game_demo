@@ -5,9 +5,28 @@ using namespace std;
 
 int main()
 {
-    cout << "Hello world!" << endl;
-    Sleep(1000);
-    system("cls");
-    cout << "===Hello world!" << endl;
+    main_loop();
     return 0;
 }
+
+void main_loop()
+{
+
+}
+
+
+void update()
+{
+
+}
+
+void draw()
+{
+    myClear();
+}
+
+void myClear()
+{
+    system("cls");
+}
+
